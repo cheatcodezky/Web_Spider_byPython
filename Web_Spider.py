@@ -150,8 +150,8 @@ class Spider:
 if __name__ == "__main__":
     print 'try spider'
     url = 'http://jwxt.jiangnan.edu.cn/jndx/default5.aspx'
-    account = '1070414532'  # 学号
-    password = '511623199512280018'  # 密码
+    account = ''  # 学号
+    password = ''  # 密码
     xnd = '2016-2017'  # 学年
     xqd = '2'  # 学期
     spider = Spider(url, account, password, xnd, xqd)
